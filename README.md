@@ -57,7 +57,32 @@ Evaluation metrics used:
 - Naive Bayes achieves very high recall for diabetic patients
 - In medical screening, recall is prioritized to minimize false negatives
 
+  🎯 Why Recall Matters More Than Accuracy in Medical AI
+
+In medical risk assessment, recall is more critical than accuracy.
+A false negative means a diabetic patient is incorrectly classified as healthy, which can delay diagnosis and treatment.
+
+Logistic Regression provides balanced performance with reasonable accuracy.
+
+Naive Bayes achieves very high recall for diabetic patients, meaning it rarely misses actual diabetes cases.
+
+➡ For early-stage diabetes screening, a model with higher recall is preferred, even if overall accuracy is lower.
+
 ---
+
+🩺 Key Health Insights from the Model
+
+High glucose levels are the strongest indicator of diabetes risk.
+
+BMI and obesity category significantly increase diabetes probability.
+
+Age above 35 shows higher risk, especially when combined with high BMI.
+
+Insulin irregularities strongly correlate with positive diabetes outcomes.
+
+Patients with multiple moderate risk factors can still be classified as high-risk, highlighting the need for early screening.
+
+➡ These insights demonstrate how machine learning can support preventive healthcare decisions, not replace doctors.
 
 ## 🏁 Conclusion
 This project demonstrates the application of machine learning in healthcare with a strong focus on data preprocessing, feature engineering, and medically relevant evaluation metrics.  
